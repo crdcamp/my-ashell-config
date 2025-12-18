@@ -1,4 +1,8 @@
 log_level = "ashell=debug"
 outputs = "All"
 
+[modules]
+left = [ "WindowTitle" ]
+center = [ "Workspaces" ]
+right = [ [ "Clock","Settings" ] ]
 
